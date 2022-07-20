@@ -1,18 +1,27 @@
 
+body{
+    font-family: 'roboto', sans-serif;
+    font-weight: lighter;
+}
+
 h1 {
     color: white;
     text-align: center;
-    font-size: 65px;
-    position: absolute;
-    bottom: 15%;
-    left: 15%;
-    top: 30%
+    font-size: 50px;
+    padding-top: 25%;
+
 }
 
-.receta{
+#inicio{
+    height: 650px;
+    background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
+    position: 0 0;
+    background-repeat: no-repeat;
+    size-adjust: cover;
+}
 
-    height: 80%;
-    width: 50%;
-    object-fit: contain;
-    
+p{
+    text-align: center;
+    padding: 3rem 21rem 3rem 21rem;
+    font-size: 1.5rem;
 }
