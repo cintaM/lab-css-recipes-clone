@@ -1,0 +1,18 @@
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    top: 30%
+}
+
+.receta{
+
+    height: 80%;
+    width: 50%;
+    object-fit: contain;
+    
+}
