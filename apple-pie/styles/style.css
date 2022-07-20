@@ -1,7 +1,7 @@
 
 body{
     font-family: 'roboto', sans-serif;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 h1 {
@@ -24,4 +24,26 @@ p{
     text-align: center;
     padding: 3rem 21rem 3rem 21rem;
     font-size: 1.5rem;
+}
+.cantidad{
+    height: 70px;
+    padding-left: 35rem ;
+    border-bottom: 2px solid black;
+}
+
+
+.tiempo{
+    height: 80px;
+    padding-left: 35rem ;
+    border-bottom: 2px solid black;
+    padding-top: 5rem;
+}
+
+h4{
+    padding-top: 2rem;
+}
+
+.listado{
+    text-align: left;
+    padding-right: 25rem;
 }
