@@ -1,9 +1,75 @@
-/*Some necessary adjustments*/
+
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
+}
+
+#principal{
+    height: 400px;
+    background-image: url(../images/soup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+  color:white;
+  font-size: 25px;
+}
+
+#French{
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+p {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.cooking{
+  padding-top: 2rem;
+  height: 80px;
+
+}
+
+h4{
+  padding-left: 2rem;
+}
+
+#ingredientes{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 100px;
+  justify-content: flex-start;
+  text-align: left;
+  justify-items: left;
+
+}
+
+.directions-img{
+  padding-top: 5rem;
+  height: 70px; 
+  align-items: center;
+}
+
+#directions{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows:  100px;
+  justify-content: flex-start;
+  text-align: center;
+  justify-items: center;
 }
