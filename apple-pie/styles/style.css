@@ -7,17 +7,20 @@ body{
 h1 {
     color: white;
     text-align: center;
-    font-size: 50px;
-    padding-top: 25%;
+    font-size: 80px;
+    padding-top: 50%;
 
 }
 
 #inicio{
     height: 650px;
     background-image: url(https://github.com/ironhack-labs/lab-css-recipes-clone/blob/master/apple-pie/images/apple-pie.jpg?raw=true);
-    position: 0 0;
+    position: center center;
     background-repeat: no-repeat;
     size-adjust: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -28,22 +31,29 @@ p{
 .cantidad{
     height: 70px;
     padding-left: 35rem ;
-    border-bottom: 2px solid black;
 }
 
 
 .tiempo{
     height: 80px;
     padding-left: 35rem ;
-    border-bottom: 2px solid black;
     padding-top: 5rem;
 }
 
 h4{
     padding-top: 2rem;
+    padding-left: 5rem;
 }
 
 .listado{
     text-align: left;
     padding-right: 25rem;
+    text-decoration: none;
+    padding-left: 5rem;
+    list-style: none;
+}
+
+.ingredientes{
+    padding-left: 5rem;
+    list-style: none;
 }
